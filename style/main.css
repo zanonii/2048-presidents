@@ -3,8 +3,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #9cc2d2;
-  color: #354b59;
+  background: #9cc2d2 url('../tile-sets/presidents/ATR.jpg');
+  color: #F7FE2E;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px; }
@@ -28,7 +28,7 @@ input {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #F7FE2E;
   height: 40px;
   line-height: 42px;
   cursor: pointer;
@@ -45,14 +45,14 @@ input {
     cursor: auto;
     background: #fcfbf9;
     font-weight: normal;
-    color: #776e65;
+    color: #F7FE2E;
     padding: 0 15px; }
     input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
-      color: #9d948c; }
+      color: #F7FE2E; }
     input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder {
-      color: #9d948c; }
+      color: #F7FE2E; }
     input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder {
-      color: #9d948c; }
+      color: #F7FE2E; }
 
 .heading:after {
   content: "";
@@ -907,7 +907,7 @@ hr {
     vertical-align: -4px;
     margin-right: 8px; }
   .btc-donate a {
-    color: #f9f6f2;
+    color:#F7FE2E;
     text-decoration: none;
     font-weight: normal; }
   .btc-donate .address {
